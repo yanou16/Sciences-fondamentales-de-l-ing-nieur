@@ -1,0 +1,53 @@
+RAPPORT D'ANALYSE DÉTAILLÉE DES DONNÉES SERVEUR
+============================================
+
+1. STATISTIQUES GÉNÉRALES
+Période analysée: 2024-07-09 00:00:00 à 2024-07-15 23:59:00
+Nombre total de mesures: 10080
+Nombre de doublons supprimés: 0
+Nombre de valeurs manquantes supprimées: 0
+Utilisation CPU moyenne: 41.41%
+Utilisation mémoire moyenne: 7.20%
+Utilisation réseau moyenne: 115.01%
+Température moyenne: 41.37°C
+
+2. PICS D'UTILISATION
+Pic d'utilisation CPU: 100.00% à 2024-07-09 01:20:00
+Pic d'utilisation mémoire: 16.00% à 2024-07-09 00:53:00
+Pic d'utilisation réseau: 200.00% à 2024-07-09 00:47:00
+Température maximale: 57.86°C à 2024-07-09 08:59:00
+
+3. CORRÉLATIONS
+               CPU_Usage  Memory_Usage  Network_Usage  Temperature
+CPU_Usage       1.000000      0.429662       0.316044     0.597826
+Memory_Usage    0.429662      1.000000       0.363922     0.486232
+Network_Usage   0.316044      0.363922       1.000000     0.944878
+Temperature     0.597826      0.486232       0.944878     1.000000
+
+4. ANALYSE TEMPORELLE
+a) Heures de pointe (CPU):
+   - 7h: 74.60% d'utilisation CPU
+   - 1h: 67.29% d'utilisation CPU
+   - 8h: 62.67% d'utilisation CPU
+
+b) Comparaison jours de semaine vs weekend:
+   Jours de semaine:
+   - CPU: 41.92%
+   - Température: 41.65°C
+   Weekend:
+   - CPU: 40.14%
+   - Température: 40.65°C
+
+5. RECOMMANDATIONS
+- Attention: Pics d'utilisation CPU élevés, considérer une mise à niveau
+- Planifier les tâches intensives en dehors de 7h, heure de pointe identifiée
+- Optimiser le trafic réseau pour réduire l'échauffement du système
+
+6. CONCLUSION
+Cette analyse détaillée des données serveur a permis d'identifier:
+- Les périodes de charge maximale
+- Les corrélations entre les différentes métriques
+- Les tendances d'utilisation par heure et par jour
+- Des recommandations techniques pour optimiser les performances
+
+Rapport généré le 2025-09-28 à 13:08:22

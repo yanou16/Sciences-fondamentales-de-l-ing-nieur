@@ -1,0 +1,23 @@
+RAPPORT DE SYNTHÈSE - SERVICE DE VÉLOS
+=====================================
+
+1. DEMANDE EXISTANTE
+- Nombre total d'utilisations: 3292679
+- Moyenne quotidienne d'utilisations: 4504
+- Pourcentage d'utilisateurs abonnés: 81.2%
+
+2. MOMENTS STRATÉGIQUES
+- Heure de pointe: 17h avec en moyenne 461 utilisations
+- Meilleure saison: Été
+- Les jours travaillés ont une utilisation plus importante que les weekends
+
+3. FACTEURS EXTERNES
+- Condition météo la moins favorable: Pluie légère/Neige
+- L'utilisation diminue significativement par mauvais temps
+
+4. RECOMMANDATIONS
+- Horaires d'ouverture recommandés: 6h-22h
+- Renforcement du service pendant les heures de pointe (8h-9h et 17h-18h)
+- Stratégie d'abonnement à privilégier pour fidéliser la clientèle
+- Prévoir une réduction du service pendant les périodes de mauvais temps
+- Adapter l'offre selon les saisons, avec un service renforcé en été

@@ -1,0 +1,66 @@
+RAPPORT DE DÉTECTION D'ANOMALIES
+===============================
+
+Période analysée: 2024-07-09 00:00:00 à 2024-07-15 23:59:00
+Nombre total de mesures: 10080
+
+1. MÉTHODE PAR SEUIL (basée sur Z-score)
+Facteur Z-score utilisé: 2 écarts-types
+Anomalies CPU_Usage (seuil 82.59): 401 détectées
+  - Valeur maximale: 100.00 à 2024-07-09 01:20:00
+Anomalies Memory_Usage (seuil 13.63): 291 détectées
+  - Valeur maximale: 16.00 à 2024-07-09 00:53:00
+Anomalies Network_Usage (seuil 222.76): 0 détectées
+Anomalies Temperature (seuil 54.39): 129 détectées
+  - Valeur maximale: 57.86 à 2024-07-09 08:59:00
+
+2. MÉTHODE PAR IQR
+Anomalies CPU_Usage: 0 détectées
+Limites IQR pour CPU_Usage: -19.01 à 100.03
+Anomalies Memory_Usage: 175 détectées
+Limites IQR pour Memory_Usage: -1.59 à 15.42
+Anomalies Network_Usage: 0 détectées
+Limites IQR pour Network_Usage: -53.29 à 287.62
+Anomalies Temperature: 0 détectées
+Limites IQR pour Temperature: 20.40 à 62.64
+
+3. MÉTHODE PAR Z-SCORE
+Anomalies CPU_Usage: 0 détectées
+Limites Z-score pour CPU_Usage: -20.37 à 103.19
+Anomalies Memory_Usage: 0 détectées
+Limites Z-score pour Memory_Usage: -2.45 à 16.85
+Anomalies Network_Usage: 0 détectées
+Limites Z-score pour Network_Usage: -46.61 à 276.63
+Anomalies Temperature: 0 détectées
+Limites Z-score pour Temperature: 21.82 à 60.91
+
+COMPARAISON DES MÉTHODES
+=======================
+
+Nombre d'anomalies détectées par méthode:
+| Métrique       | Seuil (Z-score) | IQR    | Z-score |
+|----------------|-----------------|--------|--------|
+| CPU_Usage      | 401             | 0      | 0      |
+| Memory_Usage   | 291             | 175    | 0      |
+| Network_Usage  | 0               | 0      | 0      |
+| Temperature    | 129             | 0      | 0      |
+
+RECOMMANDATIONS
+==============
+
+Pour CPU_Usage:
+  - La méthode par seuil (Z-score 2) semble la plus appropriée avec 401 anomalies détectées.
+Pour Memory_Usage:
+  - La méthode IQR semble la plus appropriée avec 175 anomalies détectées.
+Pour Network_Usage:
+  - Aucune anomalie détectée par les trois méthodes. Les données semblent normales.
+Pour Temperature:
+  - La méthode par seuil (Z-score 2) semble la plus appropriée avec 129 anomalies détectées.
+
+CONCLUSION
+=========
+
+Cette analyse a permis de détecter des anomalies dans les données du serveur en utilisant trois méthodes différentes.
+La méthode par seuil utilisant le Z-score offre un bon équilibre entre sensibilité et spécificité.
+Pour une surveillance en temps réel, nous recommandons d'utiliser une combinaison de ces méthodes
+afin de détecter efficacement les anomalies tout en minimisant les faux positifs.

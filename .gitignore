@@ -1,0 +1,43 @@
+# Environnements virtuels
+venv/
+new_venv/
+wsl_venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Fichiers Python compilés
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Fichiers de données volumineux (si nécessaire)
+# *.csv
+# *.xlsx
+
+# Fichiers de cache
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Fichiers de logs
+*.log
